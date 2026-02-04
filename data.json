@@ -1,0 +1,30 @@
+{
+    "Todo": {
+        "name": "Microsoft To do",
+        "size": "40 MB",
+        "id": "Todo",
+        "bought": false,
+        "category": "productivity"
+    },
+    "Word": {
+        "name": "Microsoft Word",
+        "size": "60 MB",
+        "id": "Word",
+        "bought": false,
+        "category": "productivity"
+    },
+    "Edge": {
+        "name": "Microsoft Edge",
+        "size": "300 MB",
+        "id": "Edge",
+        "bought": false,
+        "category": "browsers"
+    },
+    "Chrome": {
+        "name": "Google Chrome",
+        "size": "450 MB",
+        "id": "Chrome",
+        "bought": false,
+        "category": "browsers"
+    }
+}

@@ -1,0 +1,68 @@
+body {
+    background-color: white;
+    font-family: 'segoe UI';
+    display: flex;
+
+}
+#sidebar {
+    width: 20%;
+    border-right: 1px solid black;
+    height: 100vh
+}
+#sidebar p {
+    border-bottom: 1px solid grey;
+    padding: 8px 0;
+    margin: 7px 0;
+}
+#sidebar h2 {
+    padding: 2px;
+    margin-bottom: 0;
+}
+#search {
+    width: 100%;
+    margin: 0 3px 0 0;
+    padding: 7px ;
+}
+main {
+    width: 80%;
+    flex-wrap: wrap;
+}
+main .section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid grey;
+}
+.hidden {display: none;}
+
+.app {
+    border: 1px solid black;
+    display: block;
+    aspect-ratio: 5/6;
+    padding: 2px;
+    margin: 1px;
+}
+.app img {
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+.app h4 {
+    margin: 1px 0;
+}
+main h2 {
+    display: block;
+    color: grey;
+    margin: 5px;
+    }
+button {
+    display: block;
+    margin: 0 auto 3px;
+    padding: 3px 20px;
+}
+.app button {
+    color: white;
+    background-color: dodgerblue;
+}

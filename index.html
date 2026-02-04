@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="manifest" href="manifest.json" />
+        <title>Dumstore</title>
+    </head>
+    <body>
+        <div id="sidebar">
+            <h2>Search Apps</h2>
+            <input type="text" id="search" />
+            <p>All Apps</p>
+            <p>Owned Apps</p>
+            <p>Settings</p>
+            <p>Help</p>
+        </div>
+        <main id="All_Apps">
+            <h1>All Apps</h1>
+            <div class="section" id="productivity"></div>
+            <div class="section" id="browsers"></div>
+            <div class="section" id="games"></div>
+        </main>
+
+        <main id="Owned_Apps" class="hidden">
+            <h1>Owned Apps</h1>
+            <div class="section"></div>
+        </main>
+
+        <main class="hidden" id="appPreview">
+            <h2></h2>
+        </main>
+
+        <main class="hidden" id="Search_Apps"><h2>Search Apps</h2></main>
+            
+        <script type="module" src="script.js"></script>
+    </body>
+
+</html>
